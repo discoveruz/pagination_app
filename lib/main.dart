@@ -3,7 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:pagination_app/cubit/posts_cubit.dart';
 import 'package:pagination_app/data/repositories/posts_respository.dart';
 import 'package:pagination_app/data/services/posts_service.dart';
-import 'package:pagination_app/screens/posts_screen.dart';
+import 'package:pagination_app/presentation/screens/posts_screen.dart';
 
 void main() => runApp(MyApp(repository: PostsRepository(PostsService())));
 
